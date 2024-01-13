@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    /* padding-top: 15px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.image img{
+    width: 50%;
+}
+header nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+    list-style: none;
+}
+header nav ul a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+header nav ul li{
+    line-height: 7;
+    display: flex;
+    /* background: rgb(243, 11, 11); */
+    padding: 0 15px;
+    transition: all 0.5s linear;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+header nav ul li:hover{
+    background: rgb(229, 241, 132);
+    /* height: 112px; */
+}
+.body{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.img > .image1{
+    width: 30vw;
+    position: relative;
+}
+.img > .image2{
+    width: 15vw;
+    position: absolute;
+    right: 31%;
+    bottom: 17%;
+}
+.header{
+    width: 27vw;
+    position: relative;
+    top: -61px;
+}
+.header > h1{
+    font-size: 42px;
+    width: 38vw;
+}
+.header > a{
+    position: absolute;
+    margin-top: 76px;
+    padding: 18px;
+    border: none;
+    border-radius: 50px;
+    width: 7vw;
+    background: chartreuse;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bolder;
+    transition: box-shadow 0.3s linear;
+}
+.header > a:hover{
+    box-shadow: 1px 1px 20px chartreuse;
+}
